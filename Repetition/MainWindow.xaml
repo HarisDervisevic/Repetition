@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Repetition"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Repetition" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Tyskland" HorizontalAlignment="Left" Margin="59.2,24,0,0" VerticalAlignment="Top" Width="153" Height="76" Click="Button_Click_2" Grid.Column="1" Background="Black" Foreground="White"/>
+        <Button Content="Sverige" HorizontalAlignment="Left" Margin="59,24,0,0" VerticalAlignment="Top" Width="153" Height="76" Click="Button_Click_1" Background="Yellow"/>
+        <Button Content="Frankrike" HorizontalAlignment="Left" Margin="52.4,24,0,0" VerticalAlignment="Top" Width="153" Height="76"  Click="Button_Click" Grid.Column="2" Background="Blue" Foreground="White"/>
+        <TextBlock x:Name="text" Grid.Column="1" HorizontalAlignment="Left" Margin="46.2,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="51" Width="265" Grid.RowSpan="2" FontSize="40" Grid.ColumnSpan="2" Foreground="Purple"/>
+        <Button Content="RADERA" Grid.Column="1" HorizontalAlignment="Left" Margin="84.2,157.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="102" RenderTransformOrigin="-0.039,-0.477" Height="42" Click="Button_Click_3"/>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
     </Grid>
 </Window>

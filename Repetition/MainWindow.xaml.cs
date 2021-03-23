@@ -24,5 +24,37 @@ namespace Repetition
         {
             InitializeComponent();
         }
+
+       
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            text.Text = "FRANKRIKE";
+
+        }
+
+      
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            text.Text = "SVERIGE";
+        }
+
+      
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            text.Text = "TYSKLAND";
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            if (text.Text == "")
+            {
+                Console.WriteLine("NOTHING TO REMOVE");
+            }
+            else
+            {
+                text.Text = "";
+            }
+
+        }
     }
 }
